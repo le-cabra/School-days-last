@@ -1,0 +1,216 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.16f1 (5fa502fca597) revision 6268162'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1288; Version 2009; 64bit' Language: 'pt' Physical Memory: 16181 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/bernardo.franca/OneDrive - SENAC-SC/Documentos/GitHub/sd/School-days-last
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+54623
+Successfully changed project path to: C:/Users/bernardo.franca/OneDrive - SENAC-SC/Documentos/GitHub/sd/School-days-last
+C:/Users/bernardo.franca/OneDrive - SENAC-SC/Documentos/GitHub/sd/School-days-last
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 67.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.16f1 (5fa502fca597)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/bernardo.franca/OneDrive - SENAC-SC/Documentos/GitHub/sd/School-days-last/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro P620 (ID=0x1cb6)
+    Vendor:   NVIDIA
+    VRAM:     1977 MB
+    Driver:   27.21.14.5239
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001850 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 80.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.142 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1142ms)
+		BeginReloadAssembly (56ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (420ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (197ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005284 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\bernardo.franca\OneDrive - SENAC-SC\Documentos\GitHub\sd\School-days-last\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\bernardo.franca\OneDrive - SENAC-SC\Documentos\GitHub\sd\School-days-last\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.357 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5357ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (5164ms)
+			LoadAssemblies (2569ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1817ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (666ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (595ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.39 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2948 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3393.
+Total: 3.195400 ms (FindLiveObjects: 0.216800 ms CreateObjectMapping: 0.127400 ms MarkObjects: 2.801100 ms  DeleteObjects: 0.049300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/mural.obj
+  artifactKey: Guid(41b7ff1158eb92b4f8e903f4dd62652a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/mural.obj using Guid(41b7ff1158eb92b4f8e903f4dd62652a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477635b1f4fce3d1a285a42adbb010cb') in 0.254212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 799.532000 seconds.
+  path: Assets/Sprites/armário amarelo.png
+  artifactKey: Guid(91b08f4c265c0a54e84148599322a0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/armário amarelo.png using Guid(91b08f4c265c0a54e84148599322a0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a94db87d1c593f734b1f993e11f4e9') in 0.078448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Sprites/mural.png
+  artifactKey: Guid(ccbbcb79e6287e24eb255b04262a90e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/mural.png using Guid(ccbbcb79e6287e24eb255b04262a90e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a006071488ca22e1998d2e73c14ced7') in 0.008656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sprites/quadro negro.png
+  artifactKey: Guid(9d102d0cb07d9024da38d896bdb76903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/quadro negro.png using Guid(9d102d0cb07d9024da38d896bdb76903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da5d3e908273ce3e55ee7fe6b28fa44') in 0.025439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Sprites/armário azul.png
+  artifactKey: Guid(35a5d63b9adb84f4fb8554bc577197e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/armário azul.png using Guid(35a5d63b9adb84f4fb8554bc577197e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae56e114550a61b699278154ea5fb70') in 0.010283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Sprites/escada.png
+  artifactKey: Guid(0987b055c23c302468c21bede2d1c86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/escada.png using Guid(0987b055c23c302468c21bede2d1c86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a392f6091ff12025b1d4ebbf6cb2551') in 0.008060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 412.612725 seconds.
+  path: Assets/Sprites/lixo amarelo.mtl
+  artifactKey: Guid(f7bf1d2bb4666a2468f0455b7885205d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/lixo amarelo.mtl using Guid(f7bf1d2bb4666a2468f0455b7885205d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8faf1e05a5d64e08700e29e0333de6e') in 0.028362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 189.165828 seconds.
+  path: Assets/Sprites/lixo vermelho.obj
+  artifactKey: Guid(bb4d9af0ea6aadc43b157d8fdbe2c7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/lixo vermelho.obj using Guid(bb4d9af0ea6aadc43b157d8fdbe2c7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511eb25812f002a94d4ede949319e1fe') in 0.021904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.230268 seconds.
+  path: Assets/Sprites/lixo vermelho.png
+  artifactKey: Guid(7f9201108442c034096a89ee0edde7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/lixo vermelho.png using Guid(7f9201108442c034096a89ee0edde7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e377eb98e9a6ffeca850c9452a9d38f7') in 0.006980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.850419 seconds.
+  path: Assets/Sprites/lixo vermelho 1.mtl
+  artifactKey: Guid(622c4d3aece947f49929a389a377dc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/lixo vermelho 1.mtl using Guid(622c4d3aece947f49929a389a377dc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fe961568043e95633507fd21fb80a3') in 0.005842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.320065 seconds.
+  path: Assets/Sprites/lixo vermelho 1.obj
+  artifactKey: Guid(14f487a7498c2304b93f0d8cdf9f41c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/lixo vermelho 1.obj using Guid(14f487a7498c2304b93f0d8cdf9f41c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46b1cb9347f9e7c96448ffeb59dfd2c') in 0.016987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 278.289454 seconds.
+  path: Assets/Sprites/lixo vermelho.mtl
+  artifactKey: Guid(abece7b57cdcf2d4d8d1a3eb3c62049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/lixo vermelho.mtl using Guid(abece7b57cdcf2d4d8d1a3eb3c62049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6e30b2f6907813d9dfac1aacd58cd6') in 0.002534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 327.099071 seconds.
+  path: Assets/Sprites/lixo azul.obj
+  artifactKey: Guid(229bdcb18f57ecf459fd15f3748e9f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/lixo azul.obj using Guid(229bdcb18f57ecf459fd15f3748e9f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97cb8b159a6e4f6cdce09630827edbdd') in 0.021959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 366.738173 seconds.
+  path: Assets/Numeros das salas
+  artifactKey: Guid(bee6ddd34e26db14e917e5dc9127c74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numeros das salas using Guid(bee6ddd34e26db14e917e5dc9127c74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54cac31dec32bf9d4e09edc389746204') in 0.005492 seconds 
