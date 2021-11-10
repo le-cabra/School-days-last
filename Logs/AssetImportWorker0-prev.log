@@ -15,11 +15,11 @@ C:/Users/bernardo.franca/OneDrive - SENAC-SC/Documentos/GitHub/sd/School-days-la
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59914
+54623
 Successfully changed project path to: C:/Users/bernardo.franca/OneDrive - SENAC-SC/Documentos/GitHub/sd/School-days-last
 C:/Users/bernardo.franca/OneDrive - SENAC-SC/Documentos/GitHub/sd/School-days-last
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 65.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 70.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.16f1 (5fa502fca597)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/Resources/UnitySubsystems
@@ -35,303 +35,42 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001769 seconds.
+Registered in 0.686386 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 65.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.114 seconds
+- Completed reload, in  7.647 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1114ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (7647ms)
+		BeginReloadAssembly (4087ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (383ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (1510ms)
+			LoadAssemblies (4085ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (139ms)
+			SetupTypeCache (1237ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (179ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (205ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (65ms)
+				RefreshPlugins (67ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (82ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005538 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\bernardo.franca\OneDrive - SENAC-SC\Documentos\GitHub\sd\School-days-last\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\bernardo.franca\OneDrive - SENAC-SC\Documentos\GitHub\sd\School-days-last\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.064 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1064ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (872ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (352ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2948 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.6 MB.
-System memory in use after: 106.8 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3393.
-Total: 3.263400 ms (FindLiveObjects: 0.213300 ms CreateObjectMapping: 0.118700 ms MarkObjects: 2.873800 ms  DeleteObjects: 0.056800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Sprites/corredor P1.obj
-  artifactKey: Guid(a3d411602178c0d4e9065f203d0382dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor P1.obj using Guid(a3d411602178c0d4e9065f203d0382dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0569ad35f206deaac4261bce4be690e3') in 1.244335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.361370 seconds.
-  path: Assets/Sprites/corredor P1.png
-  artifactKey: Guid(d450a616f3459be4aaa7d9bfca19a58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor P1.png using Guid(d450a616f3459be4aaa7d9bfca19a58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4c0e6b6325dd274c46b879db9ff2b1') in 0.013901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 479.993048 seconds.
-  path: Assets/Sprites/corredor e salas-2.png
-  artifactKey: Guid(137b7b9bf516b9844a35b4597c1ff89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor e salas-2.png using Guid(137b7b9bf516b9844a35b4597c1ff89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256d5abb8856d6f08e846e98b783509e') in 0.009492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 61.931742 seconds.
-  path: Assets/Sprites/armário amarelo.mtl
-  artifactKey: Guid(43513c411975b5c499ffb810cec40061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/armário amarelo.mtl using Guid(43513c411975b5c499ffb810cec40061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4b5bd4ff7f2987f1e1da254cf96f31') in 0.009887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.376893 seconds.
-  path: Assets/Sprites/armário azul.obj
-  artifactKey: Guid(48aa74c7521bf3e40b20c94c4b35f425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/armário azul.obj using Guid(48aa74c7521bf3e40b20c94c4b35f425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73001cca94b6143a7976df1c1316b50') in 0.019290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.204422 seconds.
-  path: Assets/Sprites/corredor montadinho
-  artifactKey: Guid(ddb52c9001dc5064f9c3db2d6e69af03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor montadinho using Guid(ddb52c9001dc5064f9c3db2d6e69af03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf877c7b7107f12bb4475aa4560bf962') in 0.005210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.993580 seconds.
-  path: Assets/Sprites/corredor montadinho/corredor montadinho-9.obj
-  artifactKey: Guid(62609e4f361d6614f827c33bce633f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor montadinho/corredor montadinho-9.obj using Guid(62609e4f361d6614f827c33bce633f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87875cfb781c3f71b0e50a92d343932e') in 0.017149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.450719 seconds.
-  path: Assets/Sprites/corredor montadinho/corredor montadinho-7.obj
-  artifactKey: Guid(8e22f9fb93907fe4db7c41ccc8ef5609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor montadinho/corredor montadinho-7.obj using Guid(8e22f9fb93907fe4db7c41ccc8ef5609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975d4dacfd704062c84f7ebf15f58e25') in 0.016746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.659181 seconds.
-  path: Assets/Sprites/corredor montadinho/corredor montadinho-3.obj
-  artifactKey: Guid(e9322cdbfa24c1747a7100abe2bbe8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor montadinho/corredor montadinho-3.obj using Guid(e9322cdbfa24c1747a7100abe2bbe8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29aa1abebc85ad02c7fce7e6b980073') in 0.018025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 148.706981 seconds.
-  path: Assets/Sprites/corredor montadinho/corredor montadinho-4.png
-  artifactKey: Guid(14ea1efeb9827304db75303a2c97010f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor montadinho/corredor montadinho-4.png using Guid(14ea1efeb9827304db75303a2c97010f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f2095c031ea39d6c0ddc8656e0fcbf') in 0.008460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 74.012696 seconds.
-  path: Assets/Sprites/corredor montadinho/corredor montadinho-0.obj
-  artifactKey: Guid(df099b46b05ed1944a140e34d901b14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor montadinho/corredor montadinho-0.obj using Guid(df099b46b05ed1944a140e34d901b14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9739de7714aaddecc1e622983ce9c03') in 0.039441 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Sprites/escada.obj
-  artifactKey: Guid(8f8f7202a29829743925da2430b8565f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/escada.obj using Guid(8f8f7202a29829743925da2430b8565f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d03273aa89b8b11dff296218d3e0b1') in 0.029303 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Sprites/corredor e salas-2.obj
-  artifactKey: Guid(56b50381e40835a4bb5a9c87b1f7971c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor e salas-2.obj using Guid(56b50381e40835a4bb5a9c87b1f7971c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b34dce23fcbe2dbf484c343202c319a') in 0.027651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Sprites/Sala diretor.obj
-  artifactKey: Guid(f288c30ef1b01184484fe6bf85bece50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Sala diretor.obj using Guid(f288c30ef1b01184484fe6bf85bece50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdbe23f85a644ab3c0f9857b7787148b') in 0.028246 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Sprites/corredor montadinho/corredor montadinho-8.obj
-  artifactKey: Guid(45659efc72714a64ab821ba541f19a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor montadinho/corredor montadinho-8.obj using Guid(45659efc72714a64ab821ba541f19a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6624eb74246e2b84105426730e83625a') in 0.022703 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.394874 seconds.
-  path: Assets/Sprites/corredor montadinho/corredor montadinho-2.obj
-  artifactKey: Guid(a219396f8a313574b99251b602a1f241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor montadinho/corredor montadinho-2.obj using Guid(a219396f8a313574b99251b602a1f241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccd39815b374dc8eb7d55ff764d63d2') in 0.016610 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Sprites/corredor montadinho/corredor montadinho-1.obj
-  artifactKey: Guid(06d2e7419dd2fe649a72a6270406929a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor montadinho/corredor montadinho-1.obj using Guid(06d2e7419dd2fe649a72a6270406929a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83db0bf3e42ffc2a9848f11f2b9879a') in 0.021984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.409215 seconds.
-  path: Assets/Sprites/corredor montadinho/corredor montadinho-4.obj
-  artifactKey: Guid(79aadd9403946924f905978882549f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor montadinho/corredor montadinho-4.obj using Guid(79aadd9403946924f905978882549f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6255cb6f41fd91b70a989682249f6ff') in 0.017059 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.019629 seconds.
-  path: Assets/Sprites/corredor montadinho/corredor montadinho-6.obj
-  artifactKey: Guid(c688f889927c6704a97f3d7bc130ee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor montadinho/corredor montadinho-6.obj using Guid(c688f889927c6704a97f3d7bc130ee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcec20a9f3e11e2657cc6f96fa69a242') in 0.016244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Sprites/corredor montadinho/corredor montadinho-5.obj
-  artifactKey: Guid(8452a501c033e454ab654d5bc5634533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor montadinho/corredor montadinho-5.obj using Guid(8452a501c033e454ab654d5bc5634533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05834f1c541281aea52573ddc90f1391') in 0.023157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.471008 seconds.
-  path: Assets/Sprites/sala 5.obj
-  artifactKey: Guid(f1274edde1c86c14881dd28438c7730a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/sala 5.obj using Guid(f1274edde1c86c14881dd28438c7730a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d12170f2387870da93c63192f03c43e') in 0.017336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Sprites/corredor P2.obj
-  artifactKey: Guid(026728dca0bf01147b0d702bdfea35ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor P2.obj using Guid(026728dca0bf01147b0d702bdfea35ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3efc40a0e29d237cc7e468ee422bd8') in 0.022233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Sprites/quadro negro.obj
-  artifactKey: Guid(817a1877e97657c4d837da5a4c84210c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/quadro negro.obj using Guid(817a1877e97657c4d837da5a4c84210c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73beffb9b9299018ee44bcc9fe56d266') in 0.020507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Sprites/sala 1.obj
-  artifactKey: Guid(e88535469d78fdf45a1781d7fc8557d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/sala 1.obj using Guid(e88535469d78fdf45a1781d7fc8557d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bcba4ced145935f74975fa4a6ebd58f') in 0.028725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Sprites/corredor P3.obj
-  artifactKey: Guid(d0e28ac22041e3442860b2c45bcd2ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor P3.obj using Guid(d0e28ac22041e3442860b2c45bcd2ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332ff6cb13c04987f48a1999321235a0') in 0.023919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.281752 seconds.
-  path: Assets/Sprites/sala 3.obj
-  artifactKey: Guid(6815b37a4c6af68498498928db3e0b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/sala 3.obj using Guid(6815b37a4c6af68498498928db3e0b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1792cd0692c879692b172f51ce3b7abd') in 0.018525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Sprites/sala 2.obj
-  artifactKey: Guid(201da065cb085e04ea94726df34b7514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/sala 2.obj using Guid(201da065cb085e04ea94726df34b7514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac127fc97c0ffdcf3ccb9d88dc72a2c') in 0.023133 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Sprites/sala 4.obj
-  artifactKey: Guid(d495bbddfda185347ae18d31948b3702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/sala 4.obj using Guid(d495bbddfda185347ae18d31948b3702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6a3b3791a46ed02f96e1d0414c1b5a') in 0.022293 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Sprites/corredor montadinho/Materials/corredor montadinho-0.mat
-  artifactKey: Guid(c2646a286046fe649bf311a46bbb2f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor montadinho/Materials/corredor montadinho-0.mat using Guid(c2646a286046fe649bf311a46bbb2f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836f8fe1f44495ebbb2198af0e61c969') in 0.015735 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Sprites/armário amarelo.obj
-  artifactKey: Guid(8f481bdddfdad0a499c4ca4c1a4d7f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/armário amarelo.obj using Guid(8f481bdddfdad0a499c4ca4c1a4d7f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5072af4f804752cb6eb8f0a4c0a01e4') in 0.019677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 162.175332 seconds.
-  path: Assets/Sprites/corredor P1.mtl
-  artifactKey: Guid(e9989c1187dee5940a557312f0d9078b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor P1.mtl using Guid(e9989c1187dee5940a557312f0d9078b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46972fd5111961bf9d452975e7b88994') in 0.002414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.042678 seconds.
-  path: Assets/Sprites/sala 5.png
-  artifactKey: Guid(438a82c832b212640a8a4dad7e2931d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/sala 5.png using Guid(438a82c832b212640a8a4dad7e2931d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6315a35926c7185ee683f557d9560eb') in 0.005398 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.885458 seconds.
-  path: Assets/Sprites/Sala diretor.png
-  artifactKey: Guid(d5e48a39a73d0eb418ee5fc289b6c9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Sala diretor.png using Guid(d5e48a39a73d0eb418ee5fc289b6c9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a838db814124121f7d2d01a774d38d') in 0.004780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.261755 seconds.
-  path: Assets/Sprites/corredor e salas-2.mtl
-  artifactKey: Guid(592f24745c10f0b46b9f6d40ccf5bba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/corredor e salas-2.mtl using Guid(592f24745c10f0b46b9f6d40ccf5bba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36351b6bb1ce595376fedcf159b1f18') in 0.001965 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+Registered in 1.326106 seconds.
