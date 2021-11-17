@@ -28,14 +28,22 @@ public class moving : MonoBehaviourPunCallbacks
     {
         if (pv.IsMine)
         {
-            Debug.Log("Função pegou jogador");
+            //Debug.Log("Função pegou jogador");
+            if (Input.GetKey(KeyCode.W))
+            {
+                this.transform.Translate(0, 0, (-9f * Time.deltaTime));
+            }
+            if (Input.GetKey(KeyCode.S))
+            {
+                this.transform.Translate(0, 0, (9f * Time.deltaTime));
+            }
             if (Input.GetKey(KeyCode.D))
             {
-                this.transform.Translate(0, 0, (5f * Time.deltaTime));
+                this.transform.Translate((-7f * Time.deltaTime), 0, 0);
             }
             if (Input.GetKey(KeyCode.A))
             {
-                this.transform.Translate(0, 0, (-5f * Time.deltaTime));
+                this.transform.Translate((7f * Time.deltaTime), 0, 0);
             }
         }
     }
