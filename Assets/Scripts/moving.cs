@@ -38,11 +38,11 @@ public class moving : MonoBehaviourPunCallbacks
             }
             if (Input.GetKey(KeyCode.A))
             {
-                this.transform.Translate((-17f * Time.deltaTime), 0, 0);
+                this.transform.Translate((-15f * Time.deltaTime), 0, 0);
             }
             if (Input.GetKey(KeyCode.D))
             {
-                this.transform.Translate((17f * Time.deltaTime), 0, 0);
+                this.transform.Translate((15f * Time.deltaTime), 0, 0);
             }
         }
     }
