@@ -7,6 +7,7 @@ using Photon.Realtime;
 
 public class ConnectPhoton : MonoBehaviourPunCallbacks
 {
+
     //------------------Primeiras aplicações-------------------------
     [SerializeField]
     private GameObject _Painel_Sala;
@@ -23,16 +24,20 @@ public class ConnectPhoton : MonoBehaviourPunCallbacks
     [SerializeField]
     private int iD;
 
-    [SerializeField]
-    private PhotonView pv;
+    //[SerializeField]
+    //private PhotonView pv;
 
 
-
+    void awake()
+    {
+        Application.targetFrameRate = 30;
+    }
     public void Login()
     {
         PhotonNetwork.NickName = _PlayerName.text;
-        Invoke("CreateRoom", 2.0f);
-
+        CreateRoom();
+        //CreateRoom();
+        //Invoke("OnJoinedRoom", 1.0f);
     }
 
     public void Start()
@@ -46,6 +51,8 @@ public class ConnectPhoton : MonoBehaviourPunCallbacks
         RoomOptions roomOptions = new RoomOptions();
         roomOptions.MaxPlayers = 3;
         PhotonNetwork.JoinOrCreateRoom(_RoomName.text, roomOptions, TypedLobby.Default);
+        Debug.Log("CreateRoom");
+
     }
 
     public override void OnConnectedToMaster()
@@ -71,24 +78,19 @@ public class ConnectPhoton : MonoBehaviourPunCallbacks
 
     public override void OnJoinedRoom()
     {
-        Debug.Log("Joined Room");
-        print(PhotonNetwork.CurrentRoom.Name);
-        print(PhotonNetwork.CurrentRoom.PlayerCount);
-        print(PhotonNetwork.NickName);
+       Debug.Log("Joined Room");
+       //print(PhotonNetwork.CurrentRoom.Name);
+       //print(PhotonNetwork.CurrentRoom.PlayerCount);
+       //print(PhotonNetwork.NickName);
 
-
-
-        //SceneManager.LoadScene("ano1");
-
-        PhotonNetwork.Instantiate(PlayerObject[iD].name, new Vector3((83.63f + (iD * 2)), (6.49f + iD), 119.83f), Quaternion.identity, 0);
+        PhotonNetwork.Instantiate(PlayerObject[iD].name, new Vector3(1105.333f, 15.81229f, -437.0499f), Quaternion.identity, 0);
         Debug.Log("Player instanciado");
         _Painel_Sala.SetActive(false);
-
     }
 
     public void SetID(int id)
     {
         iD = id;
+        Debug.Log("ID selecionado: " + id);
     }
-
 }
