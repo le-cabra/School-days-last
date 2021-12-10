@@ -183,6 +183,9 @@ MonoBehaviour:
   pv: {fileID: 1732504071}
   nome: {fileID: 0}
   velocidade: 9
+  jump: {x: 0, y: 0, z: 0}
+  jumpForce: 2
+  isGrounded: 0
 --- !u!1001 &8363555093923941920
 PrefabInstance:
   m_ObjectHideFlags: 0
