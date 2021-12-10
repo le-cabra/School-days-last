@@ -97,8 +97,21 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 84
+  m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!135 &-6200416063499513767
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126786768175788754}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 4.425975
+  m_Center: {x: 0, y: 3.9259748, z: 0}
 --- !u!65 &1864231083
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -183,6 +196,9 @@ MonoBehaviour:
   pv: {fileID: 1864231087}
   nome: {fileID: 0}
   velocidade: 9
+  jump: {x: 0, y: 0, z: 0}
+  jumpForce: 2
+  isGrounded: 0
 --- !u!1001 &937599972987850627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -208,15 +224,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: abc6ba26dc670794ca91fa0678ca88a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1126.8303
+      value: -15.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: abc6ba26dc670794ca91fa0678ca88a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 18.812315
+      value: 18.812313
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: abc6ba26dc670794ca91fa0678ca88a0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1817.3741
+      value: 105.19486
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: abc6ba26dc670794ca91fa0678ca88a0, type: 3}
       propertyPath: m_LocalRotation.w

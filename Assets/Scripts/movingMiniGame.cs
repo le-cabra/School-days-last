@@ -9,10 +9,7 @@ public class movingMiniGame : MonoBehaviour
     [SerializeField]
     private PhotonView pv;
 
-    void Start()
-    {
-        
-    }
+    
 
     void Update()
     {
@@ -21,17 +18,22 @@ public class movingMiniGame : MonoBehaviour
             //Debug.Log("Função pegou jogador");
             if (Input.GetKey(KeyCode.W))
             {
-                
-                Debug.Log("Pulo");
+                this.transform.Translate(0, (17f * Time.deltaTime), 0);
+
+            }
+            if (Input.GetKey(KeyCode.S))
+            {
+                this.transform.Translate(0, (-17f * Time.deltaTime), 0);
+
             }
             if (Input.GetKey(KeyCode.A))
             {
-                this.transform.Translate((-17f * Time.deltaTime), 0, 0);
+                this.transform.Translate(0, 0, (-17f * Time.deltaTime));
                 Debug.Log("Esquerda");
             }
             if (Input.GetKey(KeyCode.D))
             {
-                this.transform.Translate((17f * Time.deltaTime), 0, 0);
+                this.transform.Translate(0, 0, (17f * Time.deltaTime));
                 Debug.Log("Direita");
             }
         }

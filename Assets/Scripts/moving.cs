@@ -43,7 +43,7 @@ public class moving : MonoBehaviourPunCallbacks
       
 
 
-void Update()
+    void Update() 
     {
         
             if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
@@ -72,19 +72,18 @@ void Update()
                 this.transform.Translate((-25f * Time.deltaTime), 0, 0);
             }
 
+
         }
 
-        if(transform.position.x > 43.24628f)
-        {
-            transform.position = new Vector3(5.2f, transform.position.y, 117);
-        }
         
-        else if (transform.position.x <-5.2f)
-        
+    }
+
+    void OnTriggerEnter(Collider collision)
+    {
+        if(collision.name == "colisorEntrarProva")
         {
-            transform.position = new Vector3(43.24628f, transform.position.y, 117);
+            PhotonNetwork.LoadLevel("Prova 1");
         }
     }
-   
     
 }

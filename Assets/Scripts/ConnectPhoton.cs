@@ -83,7 +83,7 @@ public class ConnectPhoton : MonoBehaviourPunCallbacks
        //print(PhotonNetwork.CurrentRoom.PlayerCount);
        //print(PhotonNetwork.NickName);
 
-        PhotonNetwork.Instantiate(PlayerObject[iD].name, new Vector3(1110f, 18.81231f, -560.4f), Quaternion.identity, 0);
+        PhotonNetwork.Instantiate(PlayerObject[iD].name, new Vector3(0.3f, 19.9f, 107f), Quaternion.identity, 0);
         Debug.Log("Player instanciado");
         _Painel_Sala.SetActive(false);
     }

@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Corredor.unity
+    guid: 5173052ffbec21243b9d1f3aeed8d926
+  - enabled: 1
+    path: Assets/Scenes/Biologia/Provas/Prova 1.unity
+    guid: 7502ffdb83b8b2541a46a737fcc3e185
   m_configObjects: {}
